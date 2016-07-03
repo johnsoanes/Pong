@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		417F7B821D290D4500734344 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417F7B811D290D4500734344 /* AppDelegate.swift */; };
+		417F7B841D290D4500734344 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 417F7B831D290D4500734344 /* GameScene.sks */; };
+		417F7B861D290D4500734344 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 417F7B851D290D4500734344 /* Actions.sks */; };
+		417F7B881D290D4500734344 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417F7B871D290D4500734344 /* GameScene.swift */; };
+		417F7B8A1D290D4500734344 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417F7B891D290D4500734344 /* GameViewController.swift */; };
+		417F7B8D1D290D4500734344 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 417F7B8B1D290D4500734344 /* Main.storyboard */; };
+		417F7B8F1D290D4500734344 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 417F7B8E1D290D4500734344 /* Assets.xcassets */; };
+		417F7B921D290D4500734344 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 417F7B901D290D4500734344 /* LaunchScreen.storyboard */; };
+		417F7B9D1D290D4500734344 /* PongTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417F7B9C1D290D4500734344 /* PongTests.swift */; };
+		417F7BA81D290D4500734344 /* PongUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417F7BA71D290D4500734344 /* PongUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		417F7B991D290D4500734344 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 417F7B761D290D4500734344 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 417F7B7D1D290D4500734344;
+			remoteInfo = Pong;
+		};
+		417F7BA41D290D4500734344 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 417F7B761D290D4500734344 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 417F7B7D1D290D4500734344;
+			remoteInfo = Pong;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		417F7B7E1D290D4500734344 /* Pong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pong.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		417F7B811D290D4500734344 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		417F7B831D290D4500734344 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		417F7B851D290D4500734344 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		417F7B871D290D4500734344 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		417F7B891D290D4500734344 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		417F7B8C1D290D4500734344 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		417F7B8E1D290D4500734344 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		417F7B911D290D4500734344 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		417F7B931D290D4500734344 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		417F7B981D290D4500734344 /* PongTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PongTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		417F7B9C1D290D4500734344 /* PongTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PongTests.swift; sourceTree = "<group>"; };
+		417F7B9E1D290D4500734344 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		417F7BA31D290D4500734344 /* PongUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PongUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		417F7BA71D290D4500734344 /* PongUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PongUITests.swift; sourceTree = "<group>"; };
+		417F7BA91D290D4500734344 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		417F7B7B1D290D4500734344 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		417F7B951D290D4500734344 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		417F7BA01D290D4500734344 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		417F7B751D290D4500734344 = {
+			isa = PBXGroup;
+			children = (
+				417F7B801D290D4500734344 /* Pong */,
+				417F7B9B1D290D4500734344 /* PongTests */,
+				417F7BA61D290D4500734344 /* PongUITests */,
+				417F7B7F1D290D4500734344 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		417F7B7F1D290D4500734344 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				417F7B7E1D290D4500734344 /* Pong.app */,
+				417F7B981D290D4500734344 /* PongTests.xctest */,
+				417F7BA31D290D4500734344 /* PongUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		417F7B801D290D4500734344 /* Pong */ = {
+			isa = PBXGroup;
+			children = (
+				417F7B811D290D4500734344 /* AppDelegate.swift */,
+				417F7B831D290D4500734344 /* GameScene.sks */,
+				417F7B851D290D4500734344 /* Actions.sks */,
+				417F7B871D290D4500734344 /* GameScene.swift */,
+				417F7B891D290D4500734344 /* GameViewController.swift */,
+				417F7B8B1D290D4500734344 /* Main.storyboard */,
+				417F7B8E1D290D4500734344 /* Assets.xcassets */,
+				417F7B901D290D4500734344 /* LaunchScreen.storyboard */,
+				417F7B931D290D4500734344 /* Info.plist */,
+			);
+			path = Pong;
+			sourceTree = "<group>";
+		};
+		417F7B9B1D290D4500734344 /* PongTests */ = {
+			isa = PBXGroup;
+			children = (
+				417F7B9C1D290D4500734344 /* PongTests.swift */,
+				417F7B9E1D290D4500734344 /* Info.plist */,
+			);
+			path = PongTests;
+			sourceTree = "<group>";
+		};
+		417F7BA61D290D4500734344 /* PongUITests */ = {
+			isa = PBXGroup;
+			children = (
+				417F7BA71D290D4500734344 /* PongUITests.swift */,
+				417F7BA91D290D4500734344 /* Info.plist */,
+			);
+			path = PongUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		417F7B7D1D290D4500734344 /* Pong */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 417F7BAC1D290D4500734344 /* Build configuration list for PBXNativeTarget "Pong" */;
+			buildPhases = (
+				417F7B7A1D290D4500734344 /* Sources */,
+				417F7B7B1D290D4500734344 /* Frameworks */,
+				417F7B7C1D290D4500734344 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pong;
+			productName = Pong;
+			productReference = 417F7B7E1D290D4500734344 /* Pong.app */;
+			productType = "com.apple.product-type.application";
+		};
+		417F7B971D290D4500734344 /* PongTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 417F7BAF1D290D4500734344 /* Build configuration list for PBXNativeTarget "PongTests" */;
+			buildPhases = (
+				417F7B941D290D4500734344 /* Sources */,
+				417F7B951D290D4500734344 /* Frameworks */,
+				417F7B961D290D4500734344 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				417F7B9A1D290D4500734344 /* PBXTargetDependency */,
+			);
+			name = PongTests;
+			productName = PongTests;
+			productReference = 417F7B981D290D4500734344 /* PongTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		417F7BA21D290D4500734344 /* PongUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 417F7BB21D290D4500734344 /* Build configuration list for PBXNativeTarget "PongUITests" */;
+			buildPhases = (
+				417F7B9F1D290D4500734344 /* Sources */,
+				417F7BA01D290D4500734344 /* Frameworks */,
+				417F7BA11D290D4500734344 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				417F7BA51D290D4500734344 /* PBXTargetDependency */,
+			);
+			name = PongUITests;
+			productName = PongUITests;
+			productReference = 417F7BA31D290D4500734344 /* PongUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		417F7B761D290D4500734344 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "John Soanes";
+				TargetAttributes = {
+					417F7B7D1D290D4500734344 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					417F7B971D290D4500734344 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 417F7B7D1D290D4500734344;
+					};
+					417F7BA21D290D4500734344 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 417F7B7D1D290D4500734344;
+					};
+				};
+			};
+			buildConfigurationList = 417F7B791D290D4500734344 /* Build configuration list for PBXProject "Pong" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 417F7B751D290D4500734344;
+			productRefGroup = 417F7B7F1D290D4500734344 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				417F7B7D1D290D4500734344 /* Pong */,
+				417F7B971D290D4500734344 /* PongTests */,
+				417F7BA21D290D4500734344 /* PongUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		417F7B7C1D290D4500734344 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				417F7B8D1D290D4500734344 /* Main.storyboard in Resources */,
+				417F7B841D290D4500734344 /* GameScene.sks in Resources */,
+				417F7B8F1D290D4500734344 /* Assets.xcassets in Resources */,
+				417F7B921D290D4500734344 /* LaunchScreen.storyboard in Resources */,
+				417F7B861D290D4500734344 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		417F7B961D290D4500734344 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		417F7BA11D290D4500734344 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		417F7B7A1D290D4500734344 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				417F7B881D290D4500734344 /* GameScene.swift in Sources */,
+				417F7B8A1D290D4500734344 /* GameViewController.swift in Sources */,
+				417F7B821D290D4500734344 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		417F7B941D290D4500734344 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				417F7B9D1D290D4500734344 /* PongTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		417F7B9F1D290D4500734344 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				417F7BA81D290D4500734344 /* PongUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		417F7B9A1D290D4500734344 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 417F7B7D1D290D4500734344 /* Pong */;
+			targetProxy = 417F7B991D290D4500734344 /* PBXContainerItemProxy */;
+		};
+		417F7BA51D290D4500734344 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 417F7B7D1D290D4500734344 /* Pong */;
+			targetProxy = 417F7BA41D290D4500734344 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		417F7B8B1D290D4500734344 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				417F7B8C1D290D4500734344 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		417F7B901D290D4500734344 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				417F7B911D290D4500734344 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		417F7BAA1D290D4500734344 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		417F7BAB1D290D4500734344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		417F7BAD1D290D4500734344 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Pong/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = soanes.Pong;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		417F7BAE1D290D4500734344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Pong/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = soanes.Pong;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		417F7BB01D290D4500734344 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = PongTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = soanes.PongTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pong.app/Pong";
+			};
+			name = Debug;
+		};
+		417F7BB11D290D4500734344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PongTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = soanes.PongTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pong.app/Pong";
+			};
+			name = Release;
+		};
+		417F7BB31D290D4500734344 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = PongUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = soanes.PongUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Pong;
+			};
+			name = Debug;
+		};
+		417F7BB41D290D4500734344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PongUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = soanes.PongUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Pong;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		417F7B791D290D4500734344 /* Build configuration list for PBXProject "Pong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				417F7BAA1D290D4500734344 /* Debug */,
+				417F7BAB1D290D4500734344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		417F7BAC1D290D4500734344 /* Build configuration list for PBXNativeTarget "Pong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				417F7BAD1D290D4500734344 /* Debug */,
+				417F7BAE1D290D4500734344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		417F7BAF1D290D4500734344 /* Build configuration list for PBXNativeTarget "PongTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				417F7BB01D290D4500734344 /* Debug */,
+				417F7BB11D290D4500734344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		417F7BB21D290D4500734344 /* Build configuration list for PBXNativeTarget "PongUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				417F7BB31D290D4500734344 /* Debug */,
+				417F7BB41D290D4500734344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 417F7B761D290D4500734344 /* Project object */;
+}
